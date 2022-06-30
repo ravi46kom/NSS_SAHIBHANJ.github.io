@@ -1,0 +1,34 @@
+@charset "ISO-8859-1";
+.primary-background {
+	background: #cc0000;
+}
+
+
+
+.slidenav {
+	background: red;
+	width: 250px;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	padding-top: 20px;
+	overflow-X: hidden;
+	
+	
+	}
+.slidenav a{
+	display: flex;
+	text-decoration: none;
+	flex-direction: column;
+	left: 0;
+	padding-left: 8px;
+	padding-top: 10px;
+	cursor: pointer;
+	border-bottom: 1px solid; 
+	color: black;
+	border-color: white;
+
+}
+.slidenav a:hover {
+	color: white;
+}

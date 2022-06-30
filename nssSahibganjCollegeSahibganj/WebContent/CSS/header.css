@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+
+body {
+	
+}
+
+.header {
+	background: #00009e;
+}
+
+.header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: initial;
+	position: relative;
+	text-align: center;
+}
+
+.header .container h1 {
+	font-weight: bold;
+	font-family: 'Lobster', cursive;
+	font-family: 'Rowdies', cursive;
+	font-family: 'Shadows Into Light', cursive;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: silver;
+	letter-spacing: 2px;
+}
+
+.header .container p {
+	font-family: 'Rowdies', cursive;
+	font-family: 'Shadows Into Light', cursive;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: silver;
+	letter-spacing: 4px;
+	font-weight: bold;
+}
+
+.header .container h3 {
+	font-family: 'Lobster', cursive;
+	font-family: 'Rowdies', cursive;
+	font-family: 'Shadows Into Light', cursive;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 0px;
+	color: silver;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
